@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Badge } from "react-bootstrap";
 
 function Projects() {
   return (
@@ -25,8 +25,9 @@ function Projects() {
                 <Card.Text>
                   Todo-list project created with angular using typescript
                 </Card.Text>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
+                <Card.Link>
+                  <Badge variant="dark">Angular</Badge>{" "}
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>
@@ -42,8 +43,15 @@ function Projects() {
                   Rock Paper Scissors project i made using html css and
                   javascript
                 </Card.Text>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
+                <Card.Link>
+                  <Badge variant="danger">HTML</Badge>{" "}
+                </Card.Link>
+                <Card.Link>
+                  <Badge variant="info">CSS</Badge>
+                </Card.Link>
+                <Card.Link>
+                  <Badge variant="warning">Javascript</Badge>
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>
@@ -58,8 +66,11 @@ function Projects() {
                 <Card.Text>
                   Chicken Invaders game i developed using Python
                 </Card.Text>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
+                <Card.Link>
+                  <Badge style={{ border: "1px solid black" }} variant="light">
+                    Python
+                  </Badge>{" "}
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>
@@ -77,8 +88,19 @@ function Projects() {
                   MERN APP - a app i developed using React, Node.js, Express,
                   MongoDB.
                 </Card.Text>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
+
+                <Card.Link>
+                  <Badge variant="primary">ReactJS</Badge>{" "}
+                </Card.Link>
+                <Card.Link>
+                  <Badge variant="Secondary">Node.js</Badge>
+                </Card.Link>
+                {/* <Card.Link>
+                    <Badge variant="secondary">Express.js</Badge>
+                  </Card.Link> */}
+                <Card.Link>
+                  <Badge variant="success">MongoDB</Badge>
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>
@@ -94,8 +116,15 @@ function Projects() {
                   frontend design i made during my time as a Colman Dev Club
                   member
                 </Card.Text>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
+                <Card.Link>
+                  <Badge variant="danger">HTML</Badge>{" "}
+                </Card.Link>
+                <Card.Link>
+                  <Badge variant="info">CSS</Badge>
+                </Card.Link>
+                <Card.Link>
+                  <Badge variant="warning">Javascript</Badge>
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>
@@ -110,8 +139,18 @@ function Projects() {
                 <Card.Text>
                   MERN APP using React, Node, Express and mongoDB.
                 </Card.Text>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
+                <Card.Link>
+                  <Badge variant="primary">ReactJS</Badge>{" "}
+                </Card.Link>
+                <Card.Link>
+                  <Badge variant="Secondary">Node.js</Badge>
+                </Card.Link>
+                {/* <Card.Link>
+                    <Badge variant="secondary">Express.js</Badge>
+                  </Card.Link> */}
+                <Card.Link>
+                  <Badge variant="success">MongoDB</Badge>
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>

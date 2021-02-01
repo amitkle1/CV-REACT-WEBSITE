@@ -1,0 +1,24 @@
+.card {
+  padding-bottom: 30px;
+}
+
+.fa-linkedin:hover {
+  color: #0366c3;
+  cursor: pointer;
+  border-radius: 5px;
+  transform: scale(1.2, 1.2);
+}
+
+.fa-github:hover {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 5px;
+  transform: scale(1.2, 1.2);
+}
+
+.fa-file-pdf:hover {
+  cursor: pointer;
+  color: #ad0b00;
+  border-radius: 5px;
+  transform: scale(1.2, 1.2);
+}

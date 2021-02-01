@@ -7,6 +7,8 @@ import NavigationBar from "./components/NavigationBar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
+import "./App.css";
+
 function App() {
   return (
     <React.Fragment>

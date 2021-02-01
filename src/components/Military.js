@@ -33,32 +33,32 @@ function Military() {
             </h1>
             <p>
               <ul>
-                <Card style={{ margin: "40px" }}>
+                <Card style={{ marginBottom: "40px" }}>
                   <Card.Text>
                     Collected signal intelligence using{" "}
                     <b>highly classified information</b> involving an
                     understanding of Arabic.
                   </Card.Text>
                 </Card>
-                <Card style={{ margin: "40px" }}>
+                <Card style={{ marginBottom: "40px" }}>
                   <Card.Text>
                     {" "}
                     <b> Head of SIGINT Team</b> – Managed a team of 15 soldiers.
                   </Card.Text>
                 </Card>
-                <Card style={{ margin: "40px" }}>
+                <Card style={{ marginBottom: "40px" }}>
                   <Card.Text>
                     {" "}
                     Controlled and <b>prioritized missions.</b>
                   </Card.Text>
                 </Card>
-                <Card style={{ margin: "40px" }}>
+                <Card style={{ marginBottom: "40px" }}>
                   <Card.Text>
                     {" "}
                     Dealt with <b>complex situations.</b>
                   </Card.Text>
                 </Card>
-                <Card style={{ margin: "40px" }}>
+                <Card style={{ marginBottom: "40px" }}>
                   <Card.Text>
                     {" "}
                     Analyse and process Intelligence data from a variety of

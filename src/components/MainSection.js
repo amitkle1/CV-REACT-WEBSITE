@@ -38,14 +38,45 @@ function MainSection() {
               environment. I consider myself as a team player with great
               interpersonal skills.
             </p>
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
-              <i class="fab fa-linkedin fa-2x"></i>
-              <i class="fab fa-github fa-2x"></i>
-              <i class="fas fa-file-pdf fa-2x"></i>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-around",
+              }}
+            >
+              <i
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/amit-klein-a8061b183/",
+                    "_blank"
+                  )
+                }
+                class="fab fa-linkedin fa-2x"
+              ></i>
+
+              <i
+                onClick={() =>
+                  window.open("https://github.com/amitkle1", "_blank")
+                }
+                class="fab fa-github fa-2x"
+              ></i>
+              <i
+                onClick={() =>
+                  window.open(
+                    "https://docs.google.com/document/d/e/2PACX-1vQ7vTOeGKfW5qBXNg63FUSbEYQC-MfqlXM2k-GVeZBxtzsDIBYR6Vclx36CL7TZSqiSV1PKB_MdCyy-/pub",
+                    "_blank"
+                  )
+                }
+                class="fas fa-file-pdf fa-2x"
+              ></i>
             </div>
           </Col>
         </Row>
-        <Row style={{ paddingLeft: "100px" }}>
+        <Row
+          style={{
+            paddingLeft: "100px",
+          }}
+        >
           <i style={{ paddingRight: "20px" }} class="fas fa-phone"></i>{" "}
           <span>
             {"   "}
