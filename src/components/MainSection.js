@@ -11,19 +11,19 @@ function MainSection() {
       <Container className="mt-50">
         <Row>
           <Col
-            xs={12}
-            md={6}
-            xl={6}
+            xs={{ span: 12, order: 2 }}
+            md={{ span: 6, order: 1 }}
+            xl={{ span: 6, order: 1 }}
             style={{ padding: "50px", textAlign: "center" }}
           >
-            <Card>
+            <Card style={{ padding: "0" }}>
               <Card.Img src={me} />
             </Card>
           </Col>
           <Col
-            xs={12}
-            md={6}
-            xl={6}
+            xs={{ span: 12, order: 1 }}
+            md={{ span: 6, order: 1 }}
+            xl={{ span: 6, order: 1 }}
             style={{ padding: "50px", textAlign: "center" }}
           >
             {" "}
@@ -31,12 +31,13 @@ function MainSection() {
               <small> My name is</small> <br /> Amit Klein
             </h1>
             <p>
-              I am a fullstack developer, specialize in{" "}
-              <b>React and NodeJS, Html. CSS/SCSS. </b>
+              I am a fullstack developer.
+              <br /> Specialize in{" "}
+              <b>React, NodeJS + expressJS, Html and CSS/SCSS. </b>
               I'm Highly motivated, A decision maker who finds solutions to
               problems. Have the ability to work in a highly pressurised
-              environment. I consider myself as a team player with great
-              interpersonal skills.
+              environment. <br />I am a team player with great interpersonal
+              skills.
             </p>
             <div
               style={{

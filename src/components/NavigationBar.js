@@ -30,7 +30,10 @@ function NavigationBar() {
             duration={500}
             className="navbar-logo"
           >
-            <Nav.Link href="#pricing">About Me</Nav.Link>
+            <Nav.Link>
+              {" "}
+              <i class="fas fa-user"></i> About Me
+            </Nav.Link>
           </Link>
           <Link
             activeClass="active"
@@ -41,7 +44,9 @@ function NavigationBar() {
             duration={500}
             className="navbar-logo"
           >
-            <Nav.Link href="#pricing">Projects</Nav.Link>
+            <Nav.Link>
+              <i class="fas fa-briefcase"></i> Projects
+            </Nav.Link>
           </Link>
           <Link
             activeClass="active"
@@ -52,7 +57,9 @@ function NavigationBar() {
             duration={500}
             className="navbar-logo"
           >
-            <Nav.Link href="#pricing">Skills</Nav.Link>
+            <Nav.Link>
+              <i class="fas fa-tools"></i> Skills
+            </Nav.Link>
           </Link>
           <Link
             activeClass="active"
@@ -63,7 +70,9 @@ function NavigationBar() {
             duration={500}
             className="navbar-logo"
           >
-            <Nav.Link href="#pricing">Military</Nav.Link>
+            <Nav.Link>
+              <i class="fas fa-shoe-prints"></i> Military
+            </Nav.Link>
           </Link>
           <Link
             activeClass="active"
@@ -74,7 +83,9 @@ function NavigationBar() {
             duration={500}
             className="navbar-logo"
           >
-            <Nav.Link href="#pricing">Education</Nav.Link>
+            <Nav.Link>
+              <i class="fas fa-graduation-cap"></i> Education
+            </Nav.Link>
           </Link>
         </Nav>
       </Navbar.Collapse>

@@ -2,6 +2,10 @@
   padding-bottom: 30px;
 }
 
+.card-img {
+  object-fit: cover;
+}
+
 .fa-linkedin:hover {
   color: #0366c3;
   cursor: pointer;
@@ -21,4 +25,64 @@
   color: #ad0b00;
   border-radius: 5px;
   transform: scale(1.2, 1.2);
+}
+
+.left_to_right {
+  animation: 6s ease 0s normal none running leftToRight;
+}
+
+.right_to_left {
+  animation: 6s ease 0s normal none running rightToLeft;
+}
+
+.up_to_down {
+  animation: 6s ease 0s normal none running upToDown;
+}
+
+.down_to_up {
+  animation: 6s ease 0s normal none running downToUp;
+}
+
+@keyframes leftToRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rightToLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes upToDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes downToUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
