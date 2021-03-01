@@ -4,15 +4,18 @@ import { Container, Row, Col, ListGroup, Button } from "react-bootstrap";
 function Skills() {
   const [text, setText] = useState(true);
   const [animation, setAnimation] = useState(false);
+  const [myClass, setMyClass] = useState("skills-buttons");
 
   const textClickHandler = () => {
     setAnimation(false);
     setText(true);
+    setMyClass("");
   };
 
   const animationClickHandler = () => {
     setText(false);
     setAnimation(true);
+    setMyClass("");
   };
 
   return (
@@ -41,7 +44,10 @@ function Skills() {
             marginBottom: "30px",
           }}
         >
-          <span style={{ color: "#fff" }}>
+          <span
+            className={myClass}
+            style={{ color: "#fff", textAlign: "center" }}
+          >
             Press a button to change state!{" "}
           </span>
           <div style={{ display: "flex", justifyContent: "space-around" }}>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import me from "../Asset/me.jpg";
+import me from "../Asset/pic.jpg";
 
 function MainSection() {
   return (
@@ -27,7 +27,7 @@ function MainSection() {
             style={{ padding: "50px", textAlign: "center" }}
           >
             {" "}
-            <h1 style={{ marginBottom: "50px" }}>
+            <h1 className="myName" style={{ marginBottom: "50px" }}>
               <small> My name is</small> <br /> Amit Klein
             </h1>
             <p>

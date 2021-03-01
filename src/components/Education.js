@@ -51,7 +51,7 @@ function Education() {
         <h3>Volunteering</h3>
         <ul style={{ marginBottom: "50px" }}>
           <li>
-            <b> 2018-2019 </b>| THE PERACH TUTORIAL PROJECT Mentored a child
+            <b> 2018-2021 </b>| THE PERACH TUTORIAL PROJECT Mentored a child
             from a disadvantaged socio-economic background to achieve success in
             his studies. (completed the course with excellence).
           </li>
